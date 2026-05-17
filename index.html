@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Price Comparison Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Price Comparison Website</h1>
+
+        <p>
+            Search and compare product prices
+        </p>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search product..."
+            >
+             <button onclick="searchProduct()">
+    Search
+</button>
+
+<button onclick="sortProducts()">
+    Sort Cheapest
+</button>
+
+
+        </div>
+
+        <div id="results"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
